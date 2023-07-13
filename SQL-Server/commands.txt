@@ -1,0 +1,36 @@
+SELECIONAR COLUNAS DE UMA TABELA:
+
+SELECT coluna, coluna2
+FROM tabela.Tabela;
+-------------------------------------------------------------------
+SELECIONAR EXCLUINDO OS DADOS REPETIDOS:
+
+SELECT DISTINCT coluna, coluna2
+FROM tabela.Tabela;
+-------------------------------------------------------------------
+SELECIONAR FILTRANDO DADOS:
+
+SELECT *
+FROM production.Product
+WHERE Color = 'black';
+-------------------------------------------------------------------
+PARA CONTAR ALGO:
+
+SELECT COUNT(tabela)
+FROM tabela.tabela;
+-------------------------------------------------------------------
+SELECIONAR OS PIMEIROS X NUMEROS:
+
+SELECT TOP 10 *
+FROM tabela.tabela;
+
+-------------------------------------------------------------------
+ORDENAR DE ALGUM JEITO:
+
+SELECT coluna
+FROM tabela
+ORDER BY tabela asc/desc
+-------------------------------------------------------------------
+VÊR SE O VALOR CORRESPONDE COM ALGO PASSADO NA LISTA:
+
+
